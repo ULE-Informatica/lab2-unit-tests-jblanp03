@@ -83,7 +83,7 @@ Output obtenido tras la ejecución de 'runTests':
 [  PASSED  ] 6 tests.
 ```
 
-Todos los tests han sido pasados .
+Todos los tests han sido pasados.
 
 ## MODIFICACIÓN DE LAS FUNCIONES
 
@@ -96,10 +96,12 @@ Una solución compatible sería realizar un comando de exclusión:
 if (uint_max - ui_a < ui_b) { /* Handle Error */ }
 ```
 
+
 2. Para la operación 'wrapFunctionMul()' se requiere verificar la regla INT30-C
 ```
 unsigned int wrapFunctionMul(unsigned int ui_a, unsigned int uiu_b){
 ```
+
 
 
 3. Para la operación 'wrapFunctionShift()' se requiere verificar la regla INT34-C
